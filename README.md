@@ -8,7 +8,8 @@ OpenSUSE Leap 15 Docker container for Ansible playbook and role testing.
 
   - `latest`: Latest stable version of Ansible.
 
-The latest tag is a lightweight image for basic validation of Ansible playbooks.
+The `latest` tag is a lightweight image for basic validation of Ansible playbooks.  
+Python 3.11 is installed to ensure compatibility with modern Ansible releases.
 
 ## How to Build
 
@@ -36,3 +37,4 @@ I use Docker to test my Ansible roles and playbooks on multiple OSes using CI to
 ## Author
 
 Created in 2023 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+Updated in 2025 to use Python 3.11 for modern Ansible compatibility.
